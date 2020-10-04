@@ -283,7 +283,8 @@ end
         var opts = { detached: false, stdio: 'ignore' };
 
         var omxCmd = `omxplayer`;
-
+        this.omxStreamTimeouts = [];
+        
         var namesM = [];
 
         var argsM = [];
